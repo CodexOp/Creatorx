@@ -1,0 +1,184 @@
+.main_heading{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 15vh;
+    color:#fff;
+    font-weight: 400;
+    z-index: 1;
+    
+}
+
+.ham{
+    display: none;
+}
+.navigations{
+    align-items: center;
+    align-content: center;
+}
+
+.ham{
+    color: #fff;
+    display: none;
+}
+
+.landing_inner_col1, .landing_inner_col2{
+    width: 50%;
+    flex:0.5;
+    
+}
+
+.cross{
+    display: none;
+    color: #fff;
+}
+
+
+.landing_outer{
+    width: 85%;
+    margin: auto;
+}
+
+.landing_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.man{
+    justify-content: center;
+    width: 150%;
+    z-index: -1;
+}
+
+.landing_inner_col2{
+    display: flex;
+    justify-content: center;
+}
+
+.main_button{
+    background-color:#575BC7;
+    border: none;
+    color: #fff;
+    padding: 2% 15%;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+@media(max-width:1024px){
+    .main_heading{
+        font-size: 40px;
+      
+    }
+}
+
+
+@media(min-width:768px){
+    
+    #avatar{
+        display: none !important;
+        cursor:pointer;
+
+    }
+
+
+    .right_nav{
+        display: none !important;
+    }
+}
+
+
+
+@media(max-width:768px){
+
+    .landing_inner{
+    display: block;
+    }
+
+    #avatar_pc{
+        display: none !important;
+        cursor:pointer;
+    }
+
+    .ham{
+        display: block;
+        z-index: 11;
+    }
+
+    .cross{
+        z-index: 100;
+    }
+
+
+    .landing_inner_col1, .landing_inner_col2{
+        width: 100%;
+        flex: 1;
+    }
+
+    .main_heading{
+        justify-content: center;
+        text-align: center;
+    }
+
+
+     .flex_button{
+         display: flex;
+         width: 100%;
+         justify-content: center;
+
+     }
+
+
+     .navigation_list{
+         z-index: 1;
+
+     }
+
+
+     #ul{
+         display: block;
+         width: 50%;
+         position: absolute;
+         background-color: #575BC7;
+         right:-100%;
+         top:0;
+         margin:0;
+         padding: 0 !important;
+         text-align: center;
+         padding-top: 20px !important;
+         transition: 0.4s ease-in-out;
+
+     }
+
+
+    
+    .man{
+      margin-top: -110px;
+      width: 5000px;
+       }
+
+       #ul{
+           padding-right: 10%;
+           height: 100vh;
+       }
+
+       .li{
+        margin:80px 20px 80px 20px
+    }
+}
+
+@media(max-width:500px){
+    .main_heading{
+        font-size: 30px;
+        margin-top:12vh;
+    }
+        
+    .man{
+      margin-top: -80px;
+      width: 5000px;
+     }
+
+   
+
+}
+
+

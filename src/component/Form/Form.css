@@ -1,0 +1,25 @@
+.input-form{
+    color: #fff;
+
+}
+
+h2{
+    color:#fff
+}
+
+.form_inner{
+    text-align: center;
+    padding:30px 0;
+    margin:20px 0;
+    border:1px solid white;
+}
+
+.submit_button{
+    margin-top:20px;
+    width: 30%;
+}
+
+#imageDescription{
+    width: 30%;
+    height: 40px;
+}
